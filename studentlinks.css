@@ -1,0 +1,15 @@
+.links{
+  padding: 2vw;
+    font-size: 5vw;
+    font-family: helvetica;
+    font-kerning: inherit;
+    color: rgb(105, 238, 222);
+}
+a { text-decoration: none; color:rgb(105, 238, 222); }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+
+.sec1{
+padding: 2vw;
+margin: 2vw;
+font-family: helvetica;
+font-size: 25vw;
+color: rgb(242, 28, 150);
+}
+.hi{
+  font-size: 40vw;
+}
+a { text-decoration: none; color:rgb(242, 28, 150); }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+
+a:hover {
+  text-decoration: underline;
+}
