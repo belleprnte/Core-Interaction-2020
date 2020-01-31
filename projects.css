@@ -1,15 +1,14 @@
-.links{
+.projects{
   padding: 6vw;
     font-size: 5vw;
     font-family: helvetica;
     font-kerning: inherit;
-    color: rgb(234, 96, 8);
+    color:rgb(42, 61, 237);
 }
-a { text-decoration: none; color:rgb(234, 96, 8); }
+a { text-decoration: none; color:rgb(42, 61, 237); }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
-
 a:hover {
   text-decoration: underline;
 }
