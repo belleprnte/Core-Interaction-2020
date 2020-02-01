@@ -1,0 +1,40 @@
+
+.sec1{
+padding: .3vw;
+margin: 1vw;
+font-family: helvetica;
+font-size: 25vw;
+color: rgb(197, 23, 100);
+}
+.hi{
+  font-size: 40vw;
+}
+
+a { text-decoration: none; color:rgb(197, 23, 100); }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+
+a:hover {
+  text-decoration: underline;
+}
+.arrow {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: rgb(197, 23, 100);
+  border-width: 0px 5px 5px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 1px;
+}
