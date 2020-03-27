@@ -1,0 +1,335 @@
+@font-face {
+  font-family: GT;
+  src: url(GT-Walsheim-Pro-Condensed-Bold.woff2);
+}
+.body{
+  position: relative;
+  top: 25vh;
+  left: 42vw;
+  height: 35vw;
+  width: 10vw;
+  background-color: rgb(233, 44, 44);
+  border: 2px rgb(199, 34, 34) solid;
+  border-radius: 2vw;
+}
+.ticks{
+  position:absolute;
+  top: 9vw;
+  height: .5vh;
+  width: 2vw;
+  background-color: rgb(231, 198, 185);
+}
+.ticks2{
+  position:absolute;
+  top: 14vw;
+  height: .5vh;
+  width: 2vw;
+  background-color: rgb(231, 198, 185);
+}
+.ticks3{
+  position:absolute;
+  top: 19vw;
+  height: .5vh;
+  width: 2vw;
+  background-color: rgb(231, 198, 185);
+}
+.ticks4{
+  position:absolute;
+  top: 24vw;
+  height: .5vh;
+  width: 2vw;
+  background-color: rgb(231, 198, 185);
+}
+.ticks5{
+  position:absolute;
+  top: 29vw;
+  height: .5vh;
+  width: 2vw;
+  background-color: rgb(231, 198, 185);
+}
+.ticks6{
+  position:absolute;
+  top: 9vw;
+  left: 8vw;
+  height: .5vh;
+  width: 2vw;
+  background-color: rgb(231, 198, 185);
+}
+.ticks7{
+  position:absolute;
+  top: 14vw;
+  left: 8vw;
+  height: .5vh;
+  width: 2vw;
+  background-color: rgb(231, 198, 185);
+}
+.ticks8{
+  position:absolute;
+  top: 19vw;
+  left: 8vw;
+  height: .5vh;
+  width: 2vw;
+  background-color: rgb(231, 198, 185);
+}
+.ticks9{
+  position:absolute;
+  top: 24vw;
+  left: 8vw;
+  height: .5vh;
+  width: 2vw;
+  background-color: rgb(231, 198, 185);
+}
+.ticks10{
+  position:absolute;
+  top: 29vw;
+  left: 8vw;
+  height: .5vh;
+  width: 2vw;
+  background-color: rgb(231, 198, 185);
+}
+
+
+
+.white{
+  position: relative;
+  left: 4.5vw;
+  height: 35vw;
+  width: 1vw;
+  background-color: black;
+  border: 1px rgb(57, 186, 251) solid;
+}
+.circle{
+  position: absolute;
+  top: 15vh;
+  left: 43.2vw;
+  height: 15vw;
+  width: 15vw;
+  border: .75vw solid rgb(57, 186, 251);
+  border-radius: 35vw;
+  background-color: rgb(57, 186, 251);
+  font-family: helvetica;
+  color: rgb(233, 44, 44);
+  animation: createCircle 3600s infinite;
+  animation-iteration-count: infinite;
+  width: 98px; height: 98px;
+}
+.circle2{
+  position: absolute;
+  top: 2vh;
+  left: 2vw;
+  height: 10vh;
+  width: 2px;
+  border-radius: 1vw;
+  background-color: rgba(160, 222, 254, 0.98);
+  animation: createCircle 3600s infinite;
+  animation-iteration-count: infinite;
+  width: 5px; height: 5px;
+}
+.circle3{
+  position: absolute;
+  top: 1.6vh;
+  left: 1.8vw;
+  height: 10vh;
+  width: 2px;
+  border-radius: 1vw;
+  background-color: rgba(160, 222, 254, 0.98);
+  animation: createCircle 3600s infinite;
+  animation-iteration-count: infinite;
+  width: 5px; height: 5px;
+}
+
+@keyframes createCircle {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(4);
+  }
+}
+.scale{
+  position: relative;
+  bottom: 1vh;
+  left: 38vw;
+  height: 2vw;
+  width: 20vw;
+  background-color: rgb(245, 255, 255);
+  box-shadow: 0px 9px rgb(210, 210, 210);
+  animation: MoveUpDown 3600s linear infinite;
+  position: relative;
+  left: 37vw;
+}
+
+@keyframes MoveUpDown {
+  100%, 0% {
+    bottom: 0;
+  }
+  0% {
+    bottom: 300px;
+  }
+}
+}
+p{
+  position: relative;
+  bottom: 17vh;
+  left: .1vw;
+  letter-spacing: -9px;
+  font-size: 10vw;
+}
+h1{
+  position: relative;
+  font-size: 4vw;
+  bottom: 5.5vh;
+  color: rgb(247, 232, 30);
+  -webkit-text-stroke: 2px rgb(255, 222, 0);
+  font-family: futura;
+  text-align: center;
+}
+.background{
+  position: absolute;
+  height: 4vw;
+  width: 4vw;
+  border-radius: 30vw;
+  background-color: rgb(199, 34, 34);
+}
+.background2{
+  position: absolute;
+  height: 4vw;
+  width: 4vw;
+  top: 25vw;
+  left: 6vw;
+  border-radius: 30vw;
+  background-color: rgb(199, 34, 34);
+}.background3{
+  position: absolute;
+  height: 4vw;
+  width: 4vw;
+  bottom: 7vw;
+  left: 60vw;
+  border-radius: 30vw;
+  background-color: rgb(199, 34, 34);
+}.background4{
+  position: absolute;
+  height: 4vw;
+  width: 4vw;
+  top: 40vw;
+  left: 25vw;
+  border-radius: 30vw;
+  background-color: rgb(199, 34, 34);
+}.background5{
+  position: absolute;
+  height: 4vw;
+  width: 4vw;
+  top: 2vw;
+  left: 80vw;
+  border-radius: 30vw;
+  background-color: rgb(199, 34, 34);
+}
+.green{
+  position: absolute;
+  height: 3vw;
+  width: 3vw;
+  top: 10vw;
+  left: 70vw;
+  border-radius: 30vw;
+  background-color: rgb(231, 198, 185);
+}
+.green2{
+  position: absolute;
+  height: 3vw;
+  width: 3vw;
+  top: 9vw;
+  left: 20vw;
+  border-radius: 30vw;
+  background-color: rgb(231, 198, 185);
+}
+.green3{
+  position: absolute;
+  height: 3vw;
+  width: 3vw;
+  top: 40vw;
+  left: 15vw;
+  border-radius: 30vw;
+  background-color: rgb(231, 198, 185);
+}
+.green4{
+  position: absolute;
+  height: 3vw;
+  width: 3vw;
+  top: 0vw;
+  left: 90vw;
+  border-radius: 30vw;
+  background-color: rgb(231, 198, 185);
+}
+.green5{
+  position: absolute;
+  height: 3vw;
+  width: 3vw;
+  top: 10vw;
+  left: 70vw;
+  border-radius: 30vw;
+  background-color: rgb(231, 198, 185);
+}
+.blue{
+  position: absolute;
+  height: 6vw;
+  width: 6vw;
+  top: 20vw;
+  left: 73vw;
+  border-radius: 30vw;
+  background-color: rgb(27, 99, 223);
+}
+.blue2{
+  position: absolute;
+  height: 6vw;
+  width: 6vw;
+  top: 10vw;
+  left: 5vw;
+  border-radius: 30vw;
+  background-color: rgb(27, 99, 223);
+}
+.blue3{
+  position: absolute;
+  height: 6vw;
+  width: 6vw;
+  top: 30vw;
+  left: 32vw;
+  border-radius: 30vw;
+  background-color: rgb(27, 99, 223);
+}
+.blue4{
+  position: absolute;
+  height: 6vw;
+  width: 6vw;
+  top: 40vw;
+  left: 87vw;
+  border-radius: 30vw;
+  background-color: rgb(27, 99, 223);
+}
+.blue5{
+  position: absolute;
+  height: 6vw;
+  width: 6vw;
+  top: 22vw;
+  left: 85vw;
+  border-radius: 30vw;
+  background-color: rgb(199, 34, 34);
+}
+.blue6{
+  position: absolute;
+  height: 6vw;
+  width: 6vw;
+  top: 40vw;
+  left: 73vw;
+  border-radius: 30vw;
+  background-color: rgb(231, 198, 185);
+}
+.blue7{
+  position: absolute;
+  height: 6vw;
+  width: 6vw;
+  top: 20vw;
+  left: 23vw;
+  border-radius: 30vw;
+  background-color: rgb(199, 34, 34);
+}
